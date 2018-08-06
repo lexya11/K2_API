@@ -1,0 +1,7 @@
+<suite name = "Second Day">
+    <test name ="Test Calculator">
+        <classes name ="Test Sample">
+            <class name ="secondDay.TestSample"/>
+        </classes>
+    </test>
+</suite>
