@@ -13,7 +13,8 @@ public class SampleTest2 {
     }
     @Test
     public void tc01(){
-        given().log().all()
+        given()
+                .log().all()
                 .get("/api/people/?search=r2")
                 .then().log().all()
                 .statusCode(200)
@@ -21,8 +22,8 @@ public class SampleTest2 {
     }
     @Test
     public void useQueryParameter() {
-        given().
-                queryParam("search", "r2")
+        given()
+                .queryParam("search", "r2")
                 .get("/api/people")
                 .then().log().all()
                 .statusCode(200)

@@ -1,7 +1,7 @@
 <suite name = "Second Day">
     <test name ="Test Calculator">
         <classes name ="Test Sample">
-            <class name ="secondDay.TestSample"/>
+            <class name ="secondday.TestSample"/>
         </classes>
     </test>
 </suite>

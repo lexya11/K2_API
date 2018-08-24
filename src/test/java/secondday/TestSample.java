@@ -1,4 +1,4 @@
-package secondDay;
+package secondday;
 
 import app.CalculatorApp;
 import org.testng.Assert;
