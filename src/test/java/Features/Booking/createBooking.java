@@ -6,6 +6,6 @@ import org.testng.annotations.BeforeClass;
 public class createBooking {
     @BeforeClass
     public void setUpRestAssured(){
-        RestAssured.baseURI = "https://restful-booker.herokuapp.com";
+        RestAssured.baseURI = "https://restful-booker.herokuapp.com123";
     }
 }
